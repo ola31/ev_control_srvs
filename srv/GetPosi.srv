@@ -1,0 +1,8 @@
+
+# Request
+int8 group_id
+int8 car_id
+---
+# Responce
+int8 posi
+

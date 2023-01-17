@@ -1,0 +1,11 @@
+
+# Request
+int8 group_id
+int8 car_id
+int8 floor
+---
+# Responce
+bool result
+
+# true : call succeed
+# false : call failed

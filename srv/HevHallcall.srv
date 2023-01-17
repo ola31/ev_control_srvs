@@ -1,0 +1,14 @@
+# constants
+int8 UP = 1
+int8 DOWN = 2
+
+# Request
+string line_id
+int8 source_floor
+int8 direction
+---
+# Responce
+bool result
+
+# true : call succeed
+# false : call failed

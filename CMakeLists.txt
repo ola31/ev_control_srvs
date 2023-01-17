@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(sample_msg_pkg)
+project(ev_control_srvs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -25,7 +25,11 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 set(srv_files
-    "srv/SampleService.srv"
+    "srv/CarCall.srv"
+    "srv/HallCall.srv"
+    "srv/GetPosi.srv"
+    "srv/HevHallcall.srv"
+    "srv/HevRobotcall.srv"
 )
 
 
