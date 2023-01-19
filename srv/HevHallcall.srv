@@ -6,7 +6,13 @@ int8 DOWN = 2
 string line_id
 int8 source_floor
 int8 direction
+
 ---
+
+# response constants
+bool SUCCESS = true
+bool FAILED  = false
+
 # Responce
 bool result
 

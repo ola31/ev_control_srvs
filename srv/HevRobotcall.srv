@@ -7,8 +7,12 @@ string line_id
 int8 source_floor
 int8 destination_floor
 ---
+# response constants
+bool SUCCESS = true
+bool FAILED  = false
+
 # Responce
 bool result
 
 # True : call succeed
-# alse : call failed
+# false : call failed
