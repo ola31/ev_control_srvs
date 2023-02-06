@@ -1,0 +1,8 @@
+
+# Request
+string line_id
+---
+
+# Responce
+bool result
+

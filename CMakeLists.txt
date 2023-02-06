@@ -30,6 +30,7 @@ set(srv_files
     "srv/GetPosi.srv"
     "srv/HevHallcall.srv"
     "srv/HevRobotcall.srv"
+    "srv/HevCallCancel.srv"
 )
 
 
